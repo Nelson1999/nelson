@@ -1,0 +1,65 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 185, 152);
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+fieldset{
+    margin-bottom: 15px;
+    background-image: url(/img/fondo2.jpg); 
+    color: #fff;
+    border: 5px solid rgb(8, 241, 191);
+}
+
+legend{
+    background-color: rgb(8, 241, 191);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.encabezado{
+    text-align: center;
+    background-image: url(/img/fondo.svg); 
+    padding: 10px 0;   
+}
+
+.encabezado img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+.encabezado h1 {
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*.datosPersonales {
+    padding: 20px;   
+}
+
+.datosLaborales{
+    padding: 20px;
+}
+
+.estudios{
+    padding: 20px;
+}
+
+.contacto{
+    padding: 20px;
+} */
