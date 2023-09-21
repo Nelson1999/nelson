@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo de Telematica">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a nuestros Servicios de Telemática</h1>
+
+            <p>Soluciones innovadoras para la
+                comunicación y transferencia de datos
+            </p>
+
+            <a class="cta-button" href="#contacto">Contáctanos</a>
+        </div>
+    </section>
+
+    <section class="servicios" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="lista">
+            <div class="service">
+                <img src="img/service1.svg" alt="Servicio 1">
+                <h3>Servicio 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam commodi, facere voluptates
+                    fuga corrupti recusandae atque nostrum quo esse reprehenderit nesciunt natus veniam totam error,
+                    voluptas vitae. Animi, at!</p>
+            </div>
+            <div class="service">
+                <img src="img/service2.svg" alt="Servicio 2">
+                <h3>Servicio 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam commodi necessitatibus
+                    delectus omnis veritatis laboriosam voluptatem inventore provident pariatur ratione ab dignissimos
+                    voluptas, dolorem debitis ipsam animi est incidunt!</p>
+            </div>
+            <div class="service">
+                <img src="img/service3.svg" alt="Servicio 3">
+                <h3>Servicio 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora nam illum, distinctio totam
+                    et quia ducimus est maiores odit! Voluptatum, eos. Et qui consectetur eius quae iure quibusdam
+                    numquam?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="nosotros" id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa lider en soluciones de telemática con una trayectoria exitosa en ...</p>
+    </section>
+
+    <section class="testimonios" id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <img src="img/cliente1.jpg" alt="Cliente 1">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quia! Ipsam laborum dolores ab
+                    rem quis, veritatis eos fuga nemo voluptas, beatae expedita ex tempore cum eius quam ullam
+                    necessitatibus.</p>
+                <p class="client-name">Catherine Reid</p>
+            </div>
+            <div class="testimonial">
+                <img src="img/cliente2.jpg" alt="Cliente 2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti porro iusto voluptate
+                    deleniti aperiam ut rerum est rem molestiae amet, veritatis eum in, eveniet, explicabo quo
+                    exercitationem voluptatum eos.</p>
+                <p class="client-name">Ollie Gibbs</p>
+            </div>
+            <div class="testimonial">
+                <img src="img/cliente3.jpg" alt="Cliente 3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id libero facere, porro ipsam eos
+                    distinctio facilis mollitia a laudantium, optio minus quae, repudiandae perferendis molestiae nisi
+                    nobis dolorem quibusdam! Nihil.</p>
+                <p class="client-name">Nancy Gonzalez</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Listo para discutir tus necesidades de telemática?</p>
+        <a href="mailto:galeanonelsonmendoza@gmail.com" class="cta-button">Enviar un correo</a>
+        <br />
+        <h3>ó</h3>
+        <form action="procesar.php" method="post">
+            <h2>Dejanos un mensaje</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <section class="footer" id="footer">
+        <p>&copy; 2023 Telemática. Todos los derechos reservados</p>
+    </section>
+</body>
+
+</html>
